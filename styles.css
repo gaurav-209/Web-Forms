@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(203, 246, 173);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+}
+
+hr {
+    border: 0.1px solid rgb(91, 87, 87);
+}
+
+.form1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/image.png);
+    background-repeat: no-repeat;
+    background-size: 576px;
+    background-position: center;
+    background-color: white;
+}
+
+p {
+    margin: 10px;
+}
+
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.763);
+}
+
+.nav {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    display: flex;
+    gap: 700px;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    justify-content: right;
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.logo {
+    color: #4CAF50;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #070707;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+}
